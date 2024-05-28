@@ -1,0 +1,110 @@
+:root {
+  --color-headings: #ffffff;
+  --color-body: #1b1924;
+  --color-primary: #444059;
+  --color-secondary: #eae9ee;
+  --color-accent: #28a9f1;
+}
+
+*,
+::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  background-color: var(--color-body);
+  color: var(--color-headings);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.input-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.endorsement-input {
+  background-color: var(--color-primary);
+  width: 90%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1.6rem;
+  border: none;
+}
+
+.user-inputs {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.user-input {
+  background-color: var(--color-primary);
+  border: none;
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 1.6rem;
+}
+
+.user-input:last-child {
+  margin-right: 0;
+}
+
+.publish-button {
+  background-color: var(--color-accent);
+  color: var(--color-headings);
+  padding: 10px 20px;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--color-headings);
+}
+
+.endorsements {
+  width: 90%;
+}
+
+.endorsement {
+  background-color: var(--color-secondary);
+  color: var(--color-body);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 20px;
+  width: 90%;
+  text-align: center;
+}
